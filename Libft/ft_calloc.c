@@ -1,0 +1,26 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/09/18 06:17:42 by rmarrero          #+#    #+#             */
+/*   Updated: 2024/09/28 12:31:38 by root             ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+#include "libft.h"
+
+void	*ft_calloc(size_t nmemb, size_t size)
+{
+	unsigned char	*pointer;
+
+	pointer = malloc(nmemb * size);
+	if (!pointer)
+		return (NULL);
+	ft_bzero(pointer, nmemb * size);
+	return (pointer);
+}
+//cases of memory overflow
+//	if (size && count > SIZE_MAX / size)
+//		return (NULL);
