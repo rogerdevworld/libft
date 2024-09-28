@@ -18,8 +18,8 @@ char	*ft_strchr(const char *s, int c)
 	local_s = (const unsigned char *)s;
 	while (*local_s)
 	{
-		if (local_s[i] == (unsigned char)c)
-			return ((char *)s);
+		if (*s == (unsigned char)c)
+			local_s = s);
 		s++;
 	}
 	if ((unsigned char)c == '\0' && s)
