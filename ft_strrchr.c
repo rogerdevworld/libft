@@ -18,14 +18,14 @@ char	*ft_strrchr(const char *str, char c)
 
 	len = ft_strlen(str);
 	local_str = (const unsigned char *)str;
+	if ((unsigned char)c == '\0')
+		return ((char *)&local_str[len]);
 	while (len > 0)
 	{
 		len--;
 		if (local_str[len] == (unsigned char)c)
 			return ((char *)&local_str[len]);
 	}
-	if ((unsigned char)c == '\0')
-		return ((char *)&local_str[len]);
 	return (NULL);
 }
 /*
