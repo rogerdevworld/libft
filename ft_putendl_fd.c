@@ -6,12 +6,12 @@
 /*   By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 12:41:15 by rmarrero          #+#    #+#             */
-/*   Updated: 2024/09/28 16:35:16 by rmarrero         ###   ########.fr       */
+/*   Updated: 2024/09/29 11:38:13 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-void	ft_putstr_fd(char *s, int fd)
+void	ft_putendl_fd(char *s, int fd)
 {
 	if (s == NULL)
 		return ;
