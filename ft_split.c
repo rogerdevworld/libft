@@ -6,7 +6,7 @@
 /*   By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 17:43:29 by rmarrero          #+#    #+#             */
-/*   Updated: 2024/09/29 13:26:54 by root             ###   ########.fr       */
+/*   Updated: 2024/09/29 13:37:55 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -30,7 +30,7 @@ static int	count_words(const char *s, char c)
 	return (count);
 }
 
-static char	*word_dup(const char *s, char c)
+static char	*ft_word_dup(const char *s, char c)
 {
 	int		len;
 	char	*word;
@@ -42,11 +42,7 @@ static char	*word_dup(const char *s, char c)
 	word = (char *)malloc(sizeof(char) * (len + 1));
 	if (!word)
 		return (NULL);
-	while (i < len)
-	{
-		word[i] = s[i];
-		i++;
-	}
+	ft_strncpy(word, s, len);
 	word[len] = '\0';
 	return (word);
 }
@@ -80,7 +76,7 @@ char	**ft_split(char const *s, char c)
 			s++;
 		if (*s)
 		{
-			split[i] = word_dup(s, c);
+			split[i] = ft_word_dup(s, c);
 			if (!split[i++])
 				return (NULL);
 			while (*s && *s != c)
