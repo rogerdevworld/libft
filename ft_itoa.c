@@ -6,7 +6,7 @@
 /*   By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 17:43:29 by rmarrero          #+#    #+#             */
-/*   Updated: 2024/09/29 13:29:11 by root             ###   ########.fr       */
+/*   Updated: 2024/09/29 15:04:05 by rmarrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -43,7 +43,7 @@ char	*ft_itoa(int n)
 	str[i] = '\0';
 	return (str);
 }
-/*
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -333,4 +333,3 @@ int main(void)
 
     return 0;
 }
-*/
