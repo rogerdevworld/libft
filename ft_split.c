@@ -6,12 +6,12 @@
 /*   By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 17:43:29 by rmarrero          #+#    #+#             */
-/*   Updated: 2024/09/29 13:40:30 by root             ###   ########.fr       */
+/*   Updated: 2024/09/29 13:48:27 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
 
-char	*ft_strncpy(char *dest, char *src, unsigned int n)
+char	*ft_strncpy(char *dest, const char *src, unsigned int n)
 {
 	unsigned int	i;
 
@@ -50,9 +50,8 @@ static int	count_words(const char *s, char c)
 
 static char	*ft_word_dup(const char *s, char c)
 {
-	int		len;
-	char	*word;
-	int		i;
+	unsigned int	len;
+	char			*word;
 
 	len = 0;
 	while (s[len] && s[len] != c)
@@ -75,6 +74,7 @@ void	ft_free_split(char **split)
 		free(split[i]);
 		i++;
 	}
+	free(split);
 }
 
 char	**ft_split(char const *s, char c)
