@@ -6,7 +6,7 @@
 /*   By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 18:01:25 by rmarrero          #+#    #+#             */
-/*   Updated: 2024/09/28 12:20:37 by root             ###   ########.fr       */
+/*   Updated: 2024/10/02 13:08:13 by rmarrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -17,6 +17,13 @@
 # include <string.h>
 # include <stdlib.h>
 # include <limits.h>
+
+/* Bonus struct  */
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}	t_list;
 
 //void functions
 void	*ft_memset(void *s, int c, size_t n);
