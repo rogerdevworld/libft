@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-char	*ft_strncpy(char *dest, const char *src, unsigned int n)
+static char	*ft_strncpy(char *dest, const char *src, unsigned int n)
 {
 	unsigned int	i;
 
@@ -64,7 +64,7 @@ static char	*ft_word_dup(const char *s, char c)
 	return (word);
 }
 
-void	ft_free_split(char **split)
+static void	ft_free_split(char **split)
 {
 	int	i;
 

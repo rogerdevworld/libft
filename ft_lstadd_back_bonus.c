@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*   ft_lstadd_back_bonus.c                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -11,9 +11,9 @@
 /* ************************************************************************** */
 #include "libft.h"
 
-void ft_lstadd_back(t_list **lst, t_list *new)
+void    ft_lstadd_back(t_list **lst, t_list *new)
 {
-    t_list *last_node;
+    t_list  *last_node;
 
     if (!lst || !new)
         return ;
