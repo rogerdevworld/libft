@@ -34,14 +34,14 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	$(AR) $(NAME) $?
 
-bonus: $(OBJS) $(BOBJS)
-	$(AR) -r $(NAME) $?
+bonus: $(OBJS) 
+	$(AR) $(NAME) $?
 
 %.o: %.c $(HEADER) Makefile
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	$(RM) $(OBJS)
+	$(RM) $(OBJS) $(BOBJS)
 
 fclean: clean
 	$(RM) $(NAME)
