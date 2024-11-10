@@ -91,7 +91,7 @@ jobs:
 
     - name: List repository contents
       run: |
-        cd ~/work/Libft/Libft
+        cd ~/work/libft/libft
         echo "Current directory: $(pwd)"
         ls -la
         cd ~/francinette
@@ -123,7 +123,7 @@ jobs:
         whereis norminette
         echo "Norminette version:"
         norminette -v || echo "Failed to get Norminette version"
-        cd ~/work/Libft/Libft
+        cd ~/work/libft/libft
         echo "Current directory: $(pwd)"
         ls -la
         norminette
@@ -132,9 +132,9 @@ jobs:
     - name: Run Francinette
       id: check_phrase
       run: |
-        rm -rf ~/work/Libft/Libft_tmp
-        cp -r ~/work/Libft/Libft ~/work/Libft/Libft_tmp
-        cd ~/work/Libft/Libft_tmp
+        rm -rf ~/work/libft/libft_tmp
+        cp -r ~/work/libft/libft ~/work/libft/libft_tmp
+        cd ~/work/libft/libft_tmp
         echo "Current directory: $(pwd)"
         ls -la
         echo "Norminette version:"
@@ -177,7 +177,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: libft-a
-        path: ~/work/Libft/Libft/libft.a
+        path: ~/work/libft/libft/libft.a
 
     - name: Checkout repository
       uses: actions/checkout@v4
