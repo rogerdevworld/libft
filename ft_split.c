@@ -96,7 +96,10 @@ char	**ft_split(char const *s, char c)
 		{
 			split[i] = ft_word_dup(s, c);
 			if (!split[i++])
+			{
+				ft_free_split(split);
 				return (NULL);
+			}
 			while (*s && *s != c)
 				s++;
 		}
