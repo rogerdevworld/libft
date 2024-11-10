@@ -126,7 +126,7 @@ jobs:
         cd ~/work/libft/libft
         echo "Current directory: $(pwd)"
         ls -la
-#        norminette
+        norminette
       shell: /usr/bin/bash -e {0}
 
     - name: Run Francinette
