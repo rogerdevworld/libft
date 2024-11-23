@@ -6,7 +6,7 @@
 /*   By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 18:01:25 by rmarrero          #+#    #+#             */
-/*   Updated: 2024/10/02 13:08:13 by rmarrero         ###   ########.fr       */
+/*   Updated: 2024/11/23 13:34:26 by rmarrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -18,6 +18,9 @@
 # include <stdlib.h>
 # include <limits.h>
 
+# ifndef SIZE_MAX
+#  define SIZE_MAX 4294967295
+# endif
 /* Mandaroty */
 //void functions
 void	*ft_memset(void *s, int c, size_t n);

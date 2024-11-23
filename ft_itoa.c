@@ -6,10 +6,25 @@
 /*   By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/12 17:43:29 by rmarrero          #+#    #+#             */
-/*   Updated: 2024/09/29 15:16:48 by rmarrero         ###   ########.fr       */
+/*   Updated: 2024/11/23 13:27:02 by rmarrero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
+
+static int	ft_intlen(int n)
+{
+	int	len;
+
+	len = 0;
+	if (n <= 0)
+		len = 1;
+	while (n != 0)
+	{
+		n /= 10;
+		len++;
+	}
+	return (len);
+}
 
 void	ft_itoa_recursive(int n, char *str, int *i)
 {
@@ -35,7 +50,7 @@ char	*ft_itoa(int n)
 	char	*str;
 	int		i;
 
-	str = (char *)malloc(12 * sizeof(char));
+	str = (char *)malloc((ft_intlen(n) + 1) * sizeof(char));
 	if (!str)
 		return (NULL);
 	i = 0;
