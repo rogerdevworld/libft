@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    Makefile-r                                         :+:      :+:    :+:    #
+#    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: rmarrero <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/09/16 12:58:52 by rmarrero          #+#    #+#              #
-#    Updated: 2024/11/10 23:55:39 by rmarrero         ###   ########.fr        #
+#    Updated: 2024/11/29 17:20:05 by rmarrero         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,13 +29,19 @@ CFLAGS = -Wall -Werror -Wextra
 RM = rm -f
 AR = ar rsc
 
+ifdef BONUS
+	OBJECTS = $(OBJS) $(BOBJS)
+else
+	OBJECTS = $(OBJS)
+endif
+
 all: $(NAME)
 
-$(NAME): $(OBJS)
+$(NAME): $(OBJECTS)
 	$(AR) $(NAME) $?
 
-bonus: $(OBJS) $(BOBJS)
-	$(AR) $(NAME) $?
+bonus: 
+	@$(MAKE) BONUS=42 --no-print-directory
 
 %.o: %.c $(HEADER) Makefile
 	$(CC) $(CFLAGS) -c $< -o $@
