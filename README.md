@@ -10,47 +10,47 @@
 
 1. **ft_atoi**: Convierte una cadena de caracteres a un número entero.  
 ```bash
-    man ft_atoi
+    man atoi
 ```
 2. **ft_isascii**: Verifica si un carácter es un carácter ASCII.  
 ```bash
-    man ft_isascii
+    man isascii
 ```
 3. **ft_memcpy**: Copia un bloque de memoria de un lugar a otro.  
 ```bash
-    man ft_memcpy
+    man memcpy
 ```
 4. **ft_putstr_fd**: Imprime una cadena de caracteres a un descriptor de archivo.
 ```bash
-    man ft_putstr_fd
+    man putstr_fd
 ```
 5. **ft_strlcat**: Añade una cadena al final de otra de manera segura.  
 ```bash
-   man ft_strlcat
+   man strlcat
 ```
 6. **ft_strrchr**: Busca la última ocurrencia de un carácter en una cadena.  
 ```bash
-   man ft_strrchr
+   man strrchr
 ```
 7. **ft_isdigit**: Verifica si un carácter es un dígito numérico.  
 ```bash
-   man ft_isdigit
+   man isdigit
 ```
 8. **ft_memmove**: Mueve un bloque de memoria de un lugar a otro, gestionando solapamientos.  
 ```bash
-   man ft_memmove
+   man memmove
 ```
 9. **ft_strlcpy**: Copia de manera segura una cadena a otra.  
 ```bash
-   man ft_strlcpy
+   man strlcpy
 ```
 10. **ft_strtrim**: Elimina los caracteres especificados al principio y final de una cadena.  
 ```bash
-    man ft_strtrim
+    man strtrim
 ```
 11. **ft_bzero**: Rellena un bloque de memoria con ceros.  
 ```bash
-    man ft_bzero
+    man bzero
 ```
 12. **ft_isprint**: Verifica si un carácter es imprimible.  
 ```bash
@@ -61,69 +61,56 @@
     man ft_memset
 ```
 14. **ft_strchr**: Busca la primera ocurrencia de un carácter en una cadena.  
-   - 
 ```bash
     man ft_strchr
 ```
 15. **ft_strlen**: Calcula la longitud de una cadena.  
-   - 
 ```bash
     man ft_strlen
 ```
 16. **ft_calloc**: Reserva memoria e inicializa a cero.  
-   - 
 ```bash
     man ft_calloc
 ```
 17. **ft_putchar_fd**: Imprime un solo carácter en un descriptor de archivo.  
-   - 
 ```bash
     man ft_putchar_fd
 ```
 18. **ft_strdup**: Crea una copia de una cadena.  
-   - 
 ```bash
     man ft_strdup
 ```
 19. **ft_strmapi**: Aplica una función a cada carácter de una cadena y devuelve la nueva cadena.  
-   - 
 ```bash
     man ft_strmapi
 ```
 20. **ft_tolower**: Convierte un carácter a minúscula.  
-   - 
 ```bash
     man ft_tolower
 ```
 21. **ft_substr**: Extrae una subcadena de una cadena.  
-   - 
 ```bash
     man ft_substr
 ```
 22. **ft_isalnum**: Verifica si un carácter es alfanumérico.  
-   - 
 ```bash
     man ft_isalnum
 ```
 23. **ft_memchr**: Busca un carácter dentro de un bloque de memoria.
-   - 
 ```bash
     man ft_memchr
 ```
 24. **ft_putendl_fd**: Imprime una cadena seguida de un salto de línea en un descriptor de archivo.
-   - 
 ```bash
     man ft_putendl_fd
 ```
 25. **ft_striteri**: Aplica una función a cada carácter de una cadena, pasando su índice.
-   - 
 ```bash
-    man ft_striteri
+    man striteri
 ```
 26. **ft_strncmp**: Compara dos cadenas hasta un número específico de caracteres. 
-   - 
 ```bash
-    man ft_strncmp
+    man strncmp
 ```
 27. **ft_toupper**: Convierte un carácter a mayúscula.
    - 
