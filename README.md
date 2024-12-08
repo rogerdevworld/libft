@@ -10,7 +10,7 @@
 
 1. **ft_atoi**: Convierte una cadena de caracteres a un número entero.  
 ```bash
-man ft_atoi
+    man ft_atoi
 ```
 2. **ft_isascii**: Verifica si un carácter es un carácter ASCII.  
 ```bash
@@ -19,12 +19,12 @@ man ft_atoi
 3. **ft_memcpy**: Copia un bloque de memoria de un lugar a otro.  
    - 
 ```bash
-   man ft_memcpy
+    man ft_memcpy
 ```
 4. **ft_putstr_fd**: Imprime una cadena de caracteres a un descriptor de archivo.
    - 
 ```bash
-   man ft_putstr_fd
+    man ft_putstr_fd
 ```
 5. **ft_strlcat**: Añade una cadena al final de otra de manera segura.  
    - 
