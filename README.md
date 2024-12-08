@@ -20,32 +20,32 @@ man ft_isascii
    - 
 ```bash
    man ft_memcpy
-   ```
+```
 4. **ft_putstr_fd**: Imprime una cadena de caracteres a un descriptor de archivo.
    - 
 ```bash
    man ft_putstr_fd
-   ```
+```
 5. **ft_strlcat**: Añade una cadena al final de otra de manera segura.  
    - 
 ```bash
    man ft_strlcat
-   ```
+```
 6. **ft_strrchr**: Busca la última ocurrencia de un carácter en una cadena.  
    - 
 ```bash
    man ft_strrchr
-   ```
+```
 7. **ft_isdigit**: Verifica si un carácter es un dígito numérico.  
    - 
 ```bash
    man ft_isdigit
-   ```
+```
 8. **ft_memmove**: Mueve un bloque de memoria de un lugar a otro, gestionando solapamientos.  
    - 
 ```bash
    man ft_memmove
-   ```
+```
 9. **ft_strlcpy**: Copia de manera segura una cadena a otra.  
    - 
 ```bash
@@ -134,7 +134,7 @@ man ft_isascii
 26. **ft_strncmp**: Compara dos cadenas hasta un número específico de caracteres. 
    - 
 ```bash
-    - `man ft_strncmp
+    man ft_strncmp
 ```
 27. **ft_toupper**: Convierte un carácter a mayúscula.
    - 
