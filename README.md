@@ -17,7 +17,6 @@
     man ft_isascii
 ```
 3. **ft_memcpy**: Copia un bloque de memoria de un lugar a otro.  
-   - 
 ```bash
     man ft_memcpy
 ```
@@ -27,12 +26,10 @@
     man ft_putstr_fd
 ```
 5. **ft_strlcat**: Añade una cadena al final de otra de manera segura.  
-   - 
 ```bash
    man ft_strlcat
 ```
 6. **ft_strrchr**: Busca la última ocurrencia de un carácter en una cadena.  
-   - 
 ```bash
    man ft_strrchr
 ```
@@ -50,7 +47,7 @@
    - 
 ```bash
    man ft_strlcpy
-   ```
+```
 10. **ft_strtrim**: Elimina los caracteres especificados al principio y final de una cadena.  
    - 
 ```bash
