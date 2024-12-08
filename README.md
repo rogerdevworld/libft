@@ -55,67 +55,67 @@ man ft_isascii
    - 
 ```bash
     man ft_strtrim
-    ```
+```
 11. **ft_bzero**: Rellena un bloque de memoria con ceros.  
    - 
 ```bash
     man ft_bzero
-    ```
+```
 12. **ft_isprint**: Verifica si un carácter es imprimible.  
    - 
 ```bash
     man ft_isprint
-    ```
+```
 13. **ft_memset**: Rellena un bloque de memoria con un valor específico.  
    - 
 ```bash
     man ft_memset
-    ```
+```
 14. **ft_strchr**: Busca la primera ocurrencia de un carácter en una cadena.  
    - 
 ```bash
     man ft_strchr
-    ```
+```
 15. **ft_strlen**: Calcula la longitud de una cadena.  
    - 
 ```bash
     man ft_strlen
-    ```
+```
 16. **ft_calloc**: Reserva memoria e inicializa a cero.  
    - 
 ```bash
     man ft_calloc
-    ```
+```
 17. **ft_putchar_fd**: Imprime un solo carácter en un descriptor de archivo.  
    - 
 ```bash
     man ft_putchar_fd
-    ```
+```
 18. **ft_strdup**: Crea una copia de una cadena.  
    - 
 ```bash
     man ft_strdup
-    ```
+```
 19. **ft_strmapi**: Aplica una función a cada carácter de una cadena y devuelve la nueva cadena.  
    - 
 ```bash
     man ft_strmapi
-    ```
+```
 20. **ft_tolower**: Convierte un carácter a minúscula.  
    - 
 ```bash
-    - `man ft_tolower`
-    ```
+    - man ft_tolower
+```
 21. **ft_substr**: Extrae una subcadena de una cadena.  
    - 
 ```bash
-    - `man ft_substr`
-    ```
+    - man ft_substr
+```
 22. **ft_isalnum**: Verifica si un carácter es alfanumérico.  
    - 
 ```bash
     - man ft_isalnum
-    ```
+```
 23. **ft_memchr**: Busca un carácter dentro de un bloque de memoria.  
     - `man ft_memchr`
 24. **ft_putendl_fd**: Imprime una cadena seguida de un salto de línea en un descriptor de archivo.  
