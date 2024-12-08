@@ -9,11 +9,11 @@
 ### Funciones de la biblioteca estándar (my_libft)
 
 1. **ft_atoi**: Convierte una cadena de caracteres a un número entero.  
-   - ```bash
-   man ft_atoi`
+```bash
+   man ft_atoi```
 2. **ft_isascii**: Verifica si un carácter es un carácter ASCII.  
-   - ```bash
-   man ft_isascii`
+```bash
+   man ft_isascii```
 3. **ft_memcpy**: Copia un bloque de memoria de un lugar a otro.  
    - ```bash
    man ft_memcpy`
