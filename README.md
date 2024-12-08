@@ -116,22 +116,46 @@ man ft_isascii
 ```bash
     man ft_isalnum
 ```
-23. **ft_memchr**: Busca un carácter dentro de un bloque de memoria.  
-    - `man ft_memchr`
-24. **ft_putendl_fd**: Imprime una cadena seguida de un salto de línea en un descriptor de archivo.  
-    - `man ft_putendl_fd`
-25. **ft_striteri**: Aplica una función a cada carácter de una cadena, pasando su índice.  
-    - `man ft_striteri`
-26. **ft_strncmp**: Compara dos cadenas hasta un número específico de caracteres.  
-    - `man ft_strncmp`
-27. **ft_toupper**: Convierte un carácter a mayúscula.  
-    - `man ft_toupper`
-28. **ft_isalpha**: Verifica si un carácter es una letra alfabética.  
-    - `man ft_isalpha`
-29. **ft_memcmp**: Compara dos bloques de memoria.  
-    - `man ft_memcmp`
-30. **ft_putnbr_fd**: Imprime un número entero en un descriptor de archivo.  
-    - `man ft_putnbr_fd`
+23. **ft_memchr**: Busca un carácter dentro de un bloque de memoria.
+   - 
+```bash
+    man ft_memchr
+```
+24. **ft_putendl_fd**: Imprime una cadena seguida de un salto de línea en un descriptor de archivo.
+   - 
+```bash
+    man ft_putendl_fd
+```
+25. **ft_striteri**: Aplica una función a cada carácter de una cadena, pasando su índice.
+   - 
+```bash
+    man ft_striteri
+```
+26. **ft_strncmp**: Compara dos cadenas hasta un número específico de caracteres. 
+   - 
+```bash
+    - `man ft_strncmp
+```
+27. **ft_toupper**: Convierte un carácter a mayúscula.
+   - 
+```bash
+    man ft_toupper
+```
+28. **ft_isalpha**: Verifica si un carácter es una letra alfabética.
+   - 
+```bash 
+    man ft_isalpha
+```
+29. **ft_memcmp**: Compara dos bloques de memoria.
+   - 
+```bash
+    man ft_memcmp
+```
+30. **ft_putnbr_fd**: Imprime un número entero en un descriptor de archivo.
+   - 
+```bash
+    man ft_putnbr_fd
+```
 31. **ft_strjoin**: Concatena dos cadenas.  
     - `man ft_strjoin`
 32. **ft_strnstr**: Busca una subcadena dentro de una cadena hasta un número específico de caracteres.  
