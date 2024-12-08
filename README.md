@@ -104,17 +104,17 @@ man ft_isascii
 20. **ft_tolower**: Convierte un carácter a minúscula.  
    - 
 ```bash
-    - man ft_tolower
+    man ft_tolower
 ```
 21. **ft_substr**: Extrae una subcadena de una cadena.  
    - 
 ```bash
-    - man ft_substr
+    man ft_substr
 ```
 22. **ft_isalnum**: Verifica si un carácter es alfanumérico.  
    - 
 ```bash
-    - man ft_isalnum
+    man ft_isalnum
 ```
 23. **ft_memchr**: Busca un carácter dentro de un bloque de memoria.  
     - `man ft_memchr`
