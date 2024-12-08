@@ -21,7 +21,6 @@
     man ft_memcpy
 ```
 4. **ft_putstr_fd**: Imprime una cadena de caracteres a un descriptor de archivo.
-   - 
 ```bash
     man ft_putstr_fd
 ```
@@ -34,37 +33,30 @@
    man ft_strrchr
 ```
 7. **ft_isdigit**: Verifica si un carácter es un dígito numérico.  
-   - 
 ```bash
    man ft_isdigit
 ```
 8. **ft_memmove**: Mueve un bloque de memoria de un lugar a otro, gestionando solapamientos.  
-   - 
 ```bash
    man ft_memmove
 ```
 9. **ft_strlcpy**: Copia de manera segura una cadena a otra.  
-   - 
 ```bash
    man ft_strlcpy
 ```
 10. **ft_strtrim**: Elimina los caracteres especificados al principio y final de una cadena.  
-   - 
 ```bash
     man ft_strtrim
 ```
 11. **ft_bzero**: Rellena un bloque de memoria con ceros.  
-   - 
 ```bash
     man ft_bzero
 ```
 12. **ft_isprint**: Verifica si un carácter es imprimible.  
-   - 
 ```bash
     man ft_isprint
 ```
 13. **ft_memset**: Rellena un bloque de memoria con un valor específico.  
-   - 
 ```bash
     man ft_memset
 ```
