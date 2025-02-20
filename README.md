@@ -195,3 +195,4 @@ Para eliminar los archivo `.o` Y `libft.a`, simplemente ejecuta el siguiente com
 ```bash
 make fclean
 ```
+![Pipeline Status](https://github.com/rogerdevworld/libft/actions/workflows/pipeline.yml/badge.svg)
